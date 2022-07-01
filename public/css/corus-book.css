@@ -1,0 +1,29 @@
+.corus-book-wrap {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: 400;
+    color: #b9d8ba;
+}
+
+.corus-book {
+    position: relative;
+    width: 200px;
+    min-height: 265px;
+    padding: 20px 25px 20px 35px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.corus-book-title {
+    font-size: 12px;
+}
+
+.corus-book-author {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    font-size: 10px;
+}

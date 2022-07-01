@@ -1,0 +1,17 @@
+.corus-font-weight-bold {
+    font-weight: bold;
+}
+
+.corus-admin-fields-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.corus-admin-fields {
+    width: 50%;
+}
+
+.corus-admin-shortcode {
+    margin-top: 15px;
+}
