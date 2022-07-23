@@ -12,9 +12,9 @@
 ?>
 
 <div class="corus-book-wrap">
-    <div class="corus-book" style="background-color: <?php echo $book_color; ?>;">
-        <div class="corus-book-title"><?php echo $title; ?></div>
-        <div class="corus-book-author"><?php echo $author_name; ?></div>
+    <div class="corus-book" style="background-color: <?php echo esc_attr($book_color); ?>;">
+        <div class="corus-book-title"><?php echo esc_html($title); ?></div>
+        <div class="corus-book-author"><?php echo esc_html($author_name); ?></div>
     </div>
 </div>
 
